@@ -39,3 +39,7 @@ GUIA_CONSIGNA.md
 eda_hvfhs.ipynb
 eda_agosto_2025.py
 eda_agosto_2025_resultados.txt
+
+# La presentacion y su generador quedan locales
+TP_presentacion.pptx
+generar_presentacion.py
