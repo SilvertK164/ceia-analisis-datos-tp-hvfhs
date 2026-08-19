@@ -7,8 +7,8 @@ de Nueva York**, con vistas a un problema de Machine Learning supervisado.
 
 | | |
 |---|---|
-| **Grupo** | `[COMPLETAR]` |
-| **Integrantes** | `[COMPLETAR]` |
+| **Grupo** | 07 |
+| **Integrante** | Silvert Kevin QUISPE PACOMPIA |
 | **Dataset** | High Volume For-Hire Vehicle (HVFHV) — NYC Taxi & Limousine Commission |
 | **Período analizado** | Agosto 2025 |
 | **Volumen** | 19.271.461 viajes × 25 variables |
