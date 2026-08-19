@@ -1,0 +1,41 @@
+# === DATOS ===
+# Los parquets pesan ~480 MB y GitHub corta en 100 MB por archivo.
+# Se descargan desde la web del NYC TLC (ver README).
+*.parquet
+*.csv
+*.xlsx
+DATA/
+datos/
+
+# === RESULTADOS QUE GENERA EL NOTEBOOK ===
+figuras/
+datos_preparados/
+
+# === ENTORNOS VIRTUALES ===
+.venv/
+.venv-*/
+venv/
+env/
+
+# === PYTHON ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# === SISTEMA / EDITOR ===
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+
+# === MATERIAL DE TRABAJO (queda local, no se publica) ===
+CONTEXTO.md
+PLAN_TP.md
+SLIDES.md
+GUION_EXPOSICION.md
+GUIA_CONSIGNA.md
+eda_hvfhs.ipynb
+eda_agosto_2025.py
+eda_agosto_2025_resultados.txt

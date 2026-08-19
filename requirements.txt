@@ -1,0 +1,18 @@
+# Dependencias del TP integrador — Análisis de Datos (CEIA, FIUBA, 3B 2026)
+#
+# Se usan restricciones de mínimo (>=) en vez de versiones fijas para que el
+# notebook corra tanto en el entorno de la cátedra (pandas 2.1.x, scikit-learn 1.4.x)
+# como en el entorno donde se desarrolló (pandas 3.0.3, scikit-learn 1.9.0).
+# El código evita a propósito APIs que existan solo en una de las dos versiones.
+
+pandas>=2.1.4
+numpy>=1.26.4
+pyarrow>=14.0.0          # lectura de archivos .parquet
+matplotlib>=3.8.0
+seaborn>=0.13.0
+scikit-learn>=1.4.0      # split, escalado, PCA, selección de features
+scipy>=1.11.4            # tests estadísticos (chi2, Cramér's V)
+missingno>=0.5.2         # visualización de datos faltantes
+imbalanced-learn>=0.12.0 # tratamiento del desbalance de clases
+jupyter>=1.0.0
+ipykernel>=6.0.0
